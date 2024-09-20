@@ -438,6 +438,7 @@ GameObject:
   - component: {fileID: 1331653805}
   - component: {fileID: 1331653804}
   - component: {fileID: 1331653803}
+  - component: {fileID: 1331653806}
   m_Layer: 0
   m_Name: Fly1_0
   m_TagString: Untagged
@@ -533,6 +534,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1331653806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331653802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff00c1e490e6c0b459e2e7d7bda44799, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horizontalSpeed: 5
+  verticalRange: 1
+  verticalSpeed: 2
+  verticalOffset: 0
+  flipSprite: 0
+  startSide: left
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
